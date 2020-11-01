@@ -1,0 +1,153 @@
+body {
+    font-family: ArialMT, sans-serif;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.container {
+    width: 1272px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* Header 1 block */
+
+.main-header {
+    height: 275px;
+    width: auto;
+    min-width: 1272px;
+    background-color: #445161;
+    color: #fff;
+}
+h1 {
+    display: block;
+    width: 374px;
+    margin: 25px 326px 40px 0;
+    font-size: 60px;
+    font-weight: 400;
+    float: left;
+}
+.main-header-list {
+    list-style-image: url("img/svg/List_icon.svg");
+    margin-left: 20px;
+    float: left;
+}
+.main-header-list-item {
+    padding: 0 0 10px 2px;
+    font-size: 20px;
+}
+.main-header-img {
+    margin: 25px 0 33px 0;
+    float: right;
+    background-color: #fff;
+}
+
+/* 2 block */
+
+.about-product {
+    height: 340px;
+    background-color: #fff;
+    color: #445161;
+}
+.about-product h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 45px 0 17px 0;
+    float: left;
+}
+.about-product p {
+    width: 648px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 11px 0;
+    float: left;
+}
+.about-product video {
+    width: 430px;
+    height: 245px;
+    float: right;
+    background-color: #445161;
+    margin: 45px 0 50px 0;
+}
+
+/* 3 block */
+
+.dignity {
+    height: 400px;
+    background-color: #F5F5F5;
+    color: #445161;
+}
+.dignity h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 25px 0 22px 0;
+    text-align: center;
+}
+
+.dignity ul {
+    list-style: none;
+}
+
+.dignity li {
+    font-size: 16px;
+    color: #333333;
+    position: relative;
+    list-style-type: none;
+    float: left;
+    max-width: 520px;
+    margin: 0 20px 26px 40px;
+}
+.dignity li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    width: 34px;
+    height: 35px;
+    background-image: url('img/svg/List_icon_plus.svg');
+}
+
+/* 4 Block */
+
+.screenshots {
+    height: 490px;
+    background-color: #fff;
+    color: #445161;
+}
+.screenshots h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 25px 0 45px 0;
+    text-align: center;
+}
+.screenshots h3 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+}
+.screenshots p {
+    font-size: 16px;
+    color: #333333;
+}
+.screenshots figure {
+    max-width: 45%;
+    float: left;
+    margin: 0 50px 27px 0;
+
+}
+.screenshots img {
+    float: left;
+    margin-right: 14px;
+}
